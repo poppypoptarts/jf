@@ -1,0 +1,109 @@
+.sebtext_contain {
+width: 250px;
+height: 420px;
+background-color: #ddd;
+border-radius: 25px;
+border: 1px solid#ccc;
+margin: 0 auto;
+}
+.st_A1 {
+background-color: #eee;
+width: 15px;
+height: 15px;
+border-radius: 100%;
+border: 1px solid #ccc;
+margin: 20px 92px 0;
+position: relative;
+}
+.st_A1::after {
+display: block;
+content: '';
+width: 40px;
+height: 5px;
+background-color: #eee;
+border-radius: 5px;
+border: 1px solid #ccc;
+position: absolute;
+top: 4px;
+left: 22px;
+}
+.st_A2 {
+background-color: #eee;
+width: 30px;
+height: 30px;
+border-radius: 100%;
+border: 1px solid #ccc;
+margin: 15px auto 0px;
+}
+.st_name {
+width: 210px;
+height: 15px;
+background-color: #cb6327;
+margin-top: 20px;
+padding: 20px;
+font-family: 'Cambo', serif;
+text-transform: lowercase;
+font-weight: 200;
+font-style: italic;
+text-align: right;
+color: white;
+font-size: 25px;
+}
+.st_texts {
+background-color: #eee;
+width: 230px;
+height: 225px;
+padding: 10px;
+border-bottom: 1px solid #ccc;
+overflow: auto;
+}
+.st_texts p {
+position: relative;
+    max-width: 250px;
+    width: 150px;
+    min-height: 10px;
+    padding: 7px;
+    background: #d1d1d1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    margin-left: 47px;
+    border: 1px solid #ccc;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    text-align: justify;
+    font-weight: 500;
+    line-height: 120%;
+    color: #444;
+}
+.st_texts p img {
+max-width: 150px;
+height: auto;
+border-radius: 5px;
+}
+.st_texts p i, .st_texts p b {
+color: #cb6327;
+}
+.st_texts p:last-of-type::after, .st_texts p:last-of-type::before {
+display: block;
+content: '';
+position: absolute;
+background: #d1d1d1;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+border: 1px solid #ccc;
+}
+.st_texts p:last-of-type::after {
+width: 10px;
+height: 10px;
+bottom: -15px;
+right: 10px;
+}
+.st_texts p:last-of-type::before {
+width: 5px;
+height: 5px;
+bottom: -15px;
+right: 0px;
+}
