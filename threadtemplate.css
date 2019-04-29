@@ -16,8 +16,7 @@ font-size: 30pt;
 text-transform: lowercase;
 text-align: center;
 border-bottom: 1px solid #b9b9b9;
-
-background-color: var(--h1);
+background-color: var(--ho2);
 background-image: url(https://www.transparenttextures.com/patterns/grid-noise.png);
 }
 .maeve_image {
@@ -34,7 +33,7 @@ width: 120px;
 margin-left: 15px;
     margin-top: 15px;
     border-radius: 50%;
-    border: 5px solid var(--ho2);
+    border: 5px solid var(--h1);
     width: 80px;
     height: 80px;
 }
