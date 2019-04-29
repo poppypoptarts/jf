@@ -1,0 +1,68 @@
+.maeve_contain {
+box-sizing: border-box;
+width: 480px;
+margin: 10px auto;
+border: 1px solid #b9b9b9;
+background-color: #f9f9f9;
+position: relative;
+}
+.maeve_words {
+width: 337px;
+padding: 20px 0px 20px 20px;
+height: 80px;
+line-height: 80px;
+font-family: midnight;
+font-size: 30pt;
+text-transform: lowercase;
+text-align: center;
+border-bottom: 1px solid #b9b9b9;
+
+background-color: var(--h1);
+background-image: url(https://www.transparenttextures.com/patterns/grid-noise.png);
+}
+.maeve_image {
+position: absolute;
+top: 0;
+right: 0;
+border-left: 1px solid #b9b9b9;
+border-bottom: 1px solid #b9b9b9;
+background: #f2f2f2;
+height: 120px;
+width: 120px;
+}
+.maeve_image img {
+margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 50%;
+    border: 5px solid var(--ho2);
+    width: 80px;
+    height: 80px;
+}
+.maeve_content {
+padding: 20px;
+font-family: 'Merriweather', serif;
+    font-size: 12px;
+    text-align: justify;
+    line-height: 120%;
+}
+
+/* amethyst */
+.group7-post-normal .maeve_content i, .group7-post-normal .maeve_content b {
+color: #d39add;
+}
+/* citrine */
+.group8-post-normal .maeve_content i, .group8-post-normal .maeve_content b {
+color: #e5a800;
+}
+/* garnet */
+.group9-post-normal .maeve_content i, .group9-post-normal .maeve_content b {
+color: #cb6327;
+}
+/* jade */
+.group10-post-normal .maeve_content i, .group10-post-normal .maeve_content b {
+color: #74d0c2;
+}
+/* lapis */
+.group11-post-normal .maeve_content i, .group11-post-normal .maeve_content b {
+color: #61a5ca;
+}
